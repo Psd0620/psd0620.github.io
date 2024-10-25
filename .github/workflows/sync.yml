@@ -17,7 +17,7 @@ jobs:
 
     - name: Set up the original repository as upstream
       run: |
-        git remote add upstream https://github.com/LupineVault/LupineVault.git
+        git remote add upstream https://github.com/LupineVault/lupinevault.github.io.git
         git fetch upstream
     
     - name: Sync with the upstream repository
